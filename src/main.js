@@ -1,4 +1,4 @@
-import PIXI from 'pixi.js'
+import * as PIXI from 'pixi'
 
 //Create the renderer
 const renderer = PIXI.autoDetectRenderer(800, 600);
