@@ -2,7 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 var projectRoot = path.resolve(__dirname, '../')
-var pixiModule = path.join(__dirname, '/node_modules/pixi.js/bin/pixi.js')
+var pixiModule = path.join(__dirname, '/node_modules/pixi.js/')
 
 let config = {
     entry: path.resolve(__dirname, 'src/main.js'),
